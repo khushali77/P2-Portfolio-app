@@ -1,8 +1,13 @@
 import React from "react";
+import {data} from "../profileData"; 
+import Profile from "../components/profile";
 
 function Home(){
     return(
-        <p>Home page</p>
+        <div className="main-section">
+            <Profile/>
+            <img className="profilephoto" src={data.img} alt="Profilephoto"/>
+        </div>
     );
 }
 

@@ -8,6 +8,7 @@
   margin-top: 0px;
   padding-top:15px;
   padding-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .links li{
@@ -25,4 +26,55 @@
   font-family: 'Satisfy', cursive;
   font-weight: bold;
   padding-left: 3%;
+}
+
+.main-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+}
+
+.profileinfo{
+  text-align: center;
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.profileinfo p{
+  color: rgb(71, 70, 70);
+}
+
+.profilephoto{
+  margin-top: 7%;
+  margin-right: 10%;
+  height: 92%;
+  width: 50%;
+  justify-self: center;
+  box-shadow: 5px 5px 10px darkgray;
+  border-radius: 2%;
+}
+
+@media(max-width:900px){
+  .main-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+  }
+
+  .profileinfo{
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  
+  .profilephoto{
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 91%;
+    width: 50%;
+    justify-self: center;
+    box-shadow: 5px 5px 10px darkgray;
+    border-radius: 2%;
+    margin-left: 10%;
+  }
 }
