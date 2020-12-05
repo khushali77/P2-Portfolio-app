@@ -48,11 +48,11 @@
 .profilephoto{
   margin-top: 7%;
   margin-right: 10%;
-  height: 92%;
+  height: 90%;
   width: 50%;
   justify-self: center;
-  box-shadow: 5px 5px 10px darkgray;
-  border-radius: 2%;
+  box-shadow:-4px -4px 5px rgba(255,255,255,0.28),4px 4px 5px rgba(51, 51, 51, 0.226);
+  border-radius: 4%;
 }
 
 .connect{
@@ -64,11 +64,26 @@
 }
 
 .connect img{
-  border-radius: 10%;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow:-4px -4px 5px rgba(255,255,255,0.28),4px 4px 5px rgba(51, 51, 51, 0.226);
 }
 
 .connect img:hover{
   box-shadow: 4px 3px 23px -10px rgba(0,0,0,0.73);
+}
+
+.information{
+  background-color: rgb(107, 107, 107);
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.infodesc{
+  width: 90%;
+  padding: 2%;
 }
 
 @media(max-width:900px){
@@ -87,11 +102,9 @@
   .profilephoto{
     margin-top: 5%;
     margin-right: 10%;
-    height: 91%;
+    height: 95%;
     width: 50%;
     justify-self: center;
-    box-shadow: 5px 5px 10px darkgray;
-    border-radius: 2%;
     margin-left: 10%;
   }
 }
