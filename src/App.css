@@ -121,10 +121,49 @@ input{
   border:solid 2px rgb(107, 107, 107);
 }
 
-
 .makeform h4{
   font-size: 26px;
   margin-left: 3%;
+}
+
+.footer{
+  background-color: rgb(107, 107, 107);
+  display: grid;
+  grid-template-columns: 1fr 5fr 10fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.footer img{
+  padding-top: 1.5%;
+  width: 30%;
+  justify-self: end;
+  align-self: center;
+}
+
+.location{
+  grid-area: left;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.contact{
+  grid-area: left;
+  grid-column: 1/2;
+  grid-row:2/3;
+}
+
+.footer p{
+  color: white;
+}
+
+.city{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.number{
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 @media(max-width:900px){
@@ -169,4 +208,15 @@ input{
     margin-left: 4%;
   }
   
+  .footer img{
+    padding-top: 5%;
+    width: 80%;
+    justify-self: end;
+    align-self: center;
+  }
+
+  .footer p{
+    color: white;
+    font-size: 15px;
+  }
 }
