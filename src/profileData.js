@@ -6,39 +6,66 @@ export const data = {
     connect:["https://img.icons8.com/fluent/48/000000/instagram-new.png","https://img.icons8.com/fluent/48/000000/linkedin.png","https://img.icons8.com/fluent/48/000000/twitter.png","https://img.icons8.com/fluent/48/000000/github.png"],
     info:"I am a third year undergraduate majoring in the field of Information and Communication Technology from Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar. My interests and hobbies are drawing, painting, skating, cricket, travelling and a little studying. I am currently living in Ahmedabad.",
     location:" Ahmedabad,India",
-    number:" +91-6353826031",
+    number:" +91-9998889998",
     mailid:" khushali9930@gmail.com"
 }
 
 export const ProjectList = [
     {
+        id:"1",
         name:"Beat Your Speed Game",
         link:"https://khushali77.github.io/BeatYourSpeed/",
         desc:"This is a word game to test your speed and increase it",
         lang:"HTML,CSS,JS"
     },
     {
+        id:"2",
         name:"Basic React App - Portfolio",
         link:"https://gcxr8.csb.app/",
         desc:"My portfolio",
         lang:"HTML,CSS,React"
     },
     {
+        id:"3",
         name:"Stopwatch",
         link:"https://xe09b.csb.app/",
         desc:"This is a word game to test your speed and increase it",
         lang:"HTML,CSS,React"
     },
     {
+        id:"4",
         name:"Xylophone",
         link:"https://khushali77.github.io/Xylophone/",
         desc:"This is a word game to test your speed and increase it",
         lang:"HTML,CSS,JS"
     },
     {
+        id:"5",
         name:"Calculator",
         link:"https://khushali77.github.io/CalculatorKS/",
         desc:"This is a word game to test your speed and increase it",
         lang:"HTML,CSS,JS"
+    },
+]
+
+export const BlogsList = [
+    {
+        id:"1",
+        name:"Week1:Documenting the journey of Learning",
+        link:"https://khushaliiishahh.medium.com/week-1-documenting-the-journey-of-learning-fd03bc9b90de",
+    },
+    {
+        id:"2",
+        name:"Week 2 : Way towards making Frontend as my back !",
+        link:"https://khushaliiishahh.medium.com/week-2-way-towards-making-frontend-as-my-back-4b89b61b53e9",
+    },
+    {
+        id:"3",
+        name:"Week 3 : Taking a look — React.js",
+        link:"https://khushaliiishahh.medium.com/week-3-taking-a-look-react-js-33a653c4d2f3",
+    },{
+        id:"4",
+        name:"Week 4: Hailing to React.js",
+        link:"https://khushaliiishahh.medium.com/week-4-hailing-to-react-js-cbd004f1553",
     },
 ]
