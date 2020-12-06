@@ -5,8 +5,8 @@ function MakeForm(){
         <div className="makeform">
         <form>
             <h4>Let's connect</h4>
-            Name: <input type="text" className="name" placeholder="abc xyz"/><br/>
-            E-mail: <input type="email" className="email" placeholder="abc@xyz.com"/><br/>
+            Name: <input type="text" className="name" placeholder="eg. John Smith"/><br/>
+            E-mail: <input type="email" className="email" placeholder="eg. johnsmith@xyz.com"/><br/>
             <button type="Submit">Submit</button>
         </form>
         </div>

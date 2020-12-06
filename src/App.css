@@ -21,6 +21,10 @@
   color: beige; 
 }
 
+.links a:hover{
+  color: black;
+}
+
 .brand{
   font-size: 25px;
   font-family: 'Satisfy', cursive;
@@ -105,20 +109,23 @@ input{
 }
 
 .makeform button{
-  padding: 0.7% 5%;
+  padding: 1% 0;
   border-radius: 100px;
   box-shadow: none;
   margin-top: 2%;
   width: 15%;
   margin-left: 3.2%;
   border: 2px solid rgb(107, 107, 107);
-  background-color: white;
-  /* box-shadow:-4px -4px 5px rgba(255,255,255,0.28),4px 4px 5px rgba(51, 51, 51, 0.226); */
+  background-color:  rgb(107, 107, 107);
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }
 
 .makeform button:hover{
-  box-shadow: inset 4px 4px 5px rgba(51, 51, 51, 0.226);
   border:solid 2px rgb(107, 107, 107);
+  background-color: transparent;
+  color:  rgb(107, 107, 107);
 }
 
 .makeform h4{
@@ -129,42 +136,18 @@ input{
 .footer{
   background-color: rgb(107, 107, 107);
   display: grid;
-  grid-template-columns: 1fr 5fr 10fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr 5fr 1fr 5fr;
+  grid-template-rows: 1fr;
+  color: white;
 }
 
-.footer img{
-  padding-top: 1.5%;
-  width: 30%;
+.location,.contact,.mail{
+  width: 45%;
   justify-self: end;
   align-self: center;
 }
 
-.location{
-  grid-area: left;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
 
-.contact{
-  grid-area: left;
-  grid-column: 1/2;
-  grid-row:2/3;
-}
-
-.footer p{
-  color: white;
-}
-
-.city{
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-.number{
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
 
 @media(max-width:900px){
   .main-section{
@@ -207,16 +190,24 @@ input{
   .makeform h4{
     margin-left: 4%;
   }
-  
-  .footer img{
-    padding-top: 5%;
-    width: 80%;
-    justify-self: end;
-    align-self: center;
-  }
 
   .footer p{
     color: white;
     font-size: 15px;
+  }
+}
+
+@media(max-width:566px){
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .location,.contact,.mail{
+    height: 65%;
+    width: 40%;
+    justify-self: end;
+    align-self: center;
+    padding-right: 15%;
   }
 }
