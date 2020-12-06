@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Blogs from "./components/blogs";
 import Projects from "./components/projects";
 import About from "./components/about";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/projects' component={Projects}/>
         <Route exact path='/about' component={About}/>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }

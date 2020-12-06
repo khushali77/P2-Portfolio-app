@@ -147,7 +147,15 @@ input{
   align-self: center;
 }
 
+.projects{
+  text-align: center;
+}
 
+.projectlinks{
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 16px;
+}
 
 @media(max-width:900px){
   .main-section{

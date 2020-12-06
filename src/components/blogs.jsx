@@ -2,7 +2,9 @@ import React from "react";
 
 function Blogs(){
     return(
-        <p>Blogs page</p>
+        <div className="projects">
+        <h2>Projects</h2>
+        </div>
     );
 }
 

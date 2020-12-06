@@ -9,3 +9,36 @@ export const data = {
     number:" +91-6353826031",
     mailid:" khushali9930@gmail.com"
 }
+
+export const ProjectList = [
+    {
+        name:"Beat Your Speed Game",
+        link:"https://khushali77.github.io/BeatYourSpeed/",
+        desc:"This is a word game to test your speed and increase it",
+        lang:"HTML,CSS,JS"
+    },
+    {
+        name:"Basic React App - Portfolio",
+        link:"https://gcxr8.csb.app/",
+        desc:"My portfolio",
+        lang:"HTML,CSS,React"
+    },
+    {
+        name:"Stopwatch",
+        link:"https://xe09b.csb.app/",
+        desc:"This is a word game to test your speed and increase it",
+        lang:"HTML,CSS,React"
+    },
+    {
+        name:"Xylophone",
+        link:"https://khushali77.github.io/Xylophone/",
+        desc:"This is a word game to test your speed and increase it",
+        lang:"HTML,CSS,JS"
+    },
+    {
+        name:"Calculator",
+        link:"https://khushali77.github.io/CalculatorKS/",
+        desc:"This is a word game to test your speed and increase it",
+        lang:"HTML,CSS,JS"
+    },
+]

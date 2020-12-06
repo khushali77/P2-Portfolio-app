@@ -3,7 +3,6 @@ import {data} from "../profileData";
 import Profile from "../components/profile";
 import Information from "../components/information";
 import MakeForm from "../components/makeform";
-import Footer from "../components/footer";
 
 function Home(){
     return(
@@ -14,7 +13,6 @@ function Home(){
         </div>
         <Information/>
         <MakeForm/>
-        <Footer/>
         </>
     );
 }
