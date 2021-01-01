@@ -1,5 +1,5 @@
 import React from "react";
-import {ProjectList} from "../profileData"
+import {ProjectList} from "profileData"
 
 export const Project = (props) =>{
     return( 

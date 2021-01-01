@@ -83,11 +83,13 @@
   color: white;
   text-align: center;
   margin-top: 8%;
+  line-height: 0.8cm;
 }
 
 .infodesc{
   width: 90%;
-  padding: 2%;
+  padding: 1%;
+  padding-left: 4%;
 }
 
 .makeform{
@@ -108,7 +110,7 @@ input{
   border: solid 2px rgb(107, 107, 107);
 }
 
-.makeform button{
+.submitbtn{
   padding: 1% 0;
   border-radius: 100px;
   box-shadow: none;
@@ -122,7 +124,7 @@ input{
   text-align: center;
 }
 
-.makeform button:hover{
+.submitbtn:hover{
   border:solid 2px rgb(107, 107, 107);
   background-color: transparent;
   color:  rgb(107, 107, 107);

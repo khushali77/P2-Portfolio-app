@@ -1,5 +1,5 @@
 import React from "react";
-import {BlogsList} from "../profileData"
+import {BlogsList} from "profileData"
 
 export const Blog = (props) =>{
     return( 
